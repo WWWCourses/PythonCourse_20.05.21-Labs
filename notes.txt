@@ -1,0 +1,14 @@
+DNS:
+
+IP address / domain name ?
+
+
+Web Client software: chrome, FF, brave, EDGE
+Web Server ? Apache, nginx
+
+URL == page address
+
+URL = Unified Resources Locator
+
+
+
