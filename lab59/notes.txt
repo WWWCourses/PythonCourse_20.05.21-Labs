@@ -1,0 +1,7 @@
+
+CPU-bound task: = > multiprocessing
+	sum (1 .. 10_000_000)
+
+
+Non-CPU-bound tasks: => multithreading
+ 	Waiting for files/DB operations, server requests, etc.

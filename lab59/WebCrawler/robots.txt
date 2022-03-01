@@ -1,0 +1,6 @@
+# https://mysite.com
+User-agent: *
+Disallow: /
+
+
+

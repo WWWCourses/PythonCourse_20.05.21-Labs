@@ -15,12 +15,15 @@ def handle_client(conn, addr):
 		if msg == DISCONNECT_MESSAGE or not msg:
 			break
 
-		conn.send("Msg received".encode(FORMAT))
+		# conn.send("Msg received".encode(FORMAT))
+		print("Msg received".encode(FORMAT))
 
 	conn.close()
 
 PORT = 5050
-SERVER_IP = socket.gethostbyname(socket.gethostname())
+# SERVER_IP = socket.gethostbyname(socket.gethostname())
+SERVER_IP = '127.0.0.1'
+print(socket.gethostname())
 
 # create an INET (i.e. IPv4), STREAMing (i.e. TCP) socket:
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
